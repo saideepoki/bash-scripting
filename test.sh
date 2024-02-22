@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "Bash version ${BASH_VERSION}"
-for i in {0..10..2}
+for ((c=0; c<=5; c++))
 do
-     echo "Welcome $i times"
+     echo "$c"
 done
